@@ -1,6 +1,6 @@
-{% set python_min = '3.10' %}
+{% set python_min = "3.10" %}
 {% set name = "pointpats" %}
-{% set version = "2.5.1" %}
+{% set version = "2.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pointpats-{{ version }}.tar.gz
-  sha256: 1eedb30a17e59746ed9ac68283f419dee5a07c17cd53ed2bc2dadba2b77973ff
+  sha256: 6be0be63c893b542d4b6b00609bb8378c38b58245c1cc53a95283500c3d4a663
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:

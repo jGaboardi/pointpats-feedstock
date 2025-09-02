@@ -157,6 +157,3 @@ Feedstock Maintainers
 * [@slumnitz](https://github.com/slumnitz/)
 * [@weikang9009](https://github.com/weikang9009/)
 
-
-<!-- dummy commit to enable rerendering -->
-
